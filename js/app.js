@@ -30,8 +30,8 @@ function adicionar(){
 function sortear(){
 
     //Validar sorteio com apenas 1 amigo
-    if (amigos.length < 2){
-        alert('Não é possível fazer sorteio com menos de 2 amigos. Inclua mais amigos!');
+    if (amigos.length < 4){
+        alert('Não é possível fazer sorteio com menos de 4 amigos. Inclua mais amigos!');
         return;
     }
 
